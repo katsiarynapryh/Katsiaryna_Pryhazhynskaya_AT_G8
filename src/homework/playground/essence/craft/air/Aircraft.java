@@ -3,5 +3,18 @@ package homework.playground.essence.craft.air;
 import homework.playground.essence.Matter;
 
 public abstract class Aircraft extends Matter {
-    private String name;
+    protected String name;
+
+    public Aircraft(int mass, String name) {
+        super(mass);
+        this.name = name;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 }
