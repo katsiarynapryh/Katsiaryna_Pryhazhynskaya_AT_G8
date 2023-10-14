@@ -1,4 +1,4 @@
-package pretask;
+package homework.pretask;
 
 public class VariableAssignment {
     static int c = 22;

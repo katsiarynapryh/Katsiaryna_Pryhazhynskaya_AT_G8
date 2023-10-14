@@ -1,3 +1,5 @@
+package classwork.day2;
+
 import java.util.Random;
 public class ForEach {
     public void foo() {

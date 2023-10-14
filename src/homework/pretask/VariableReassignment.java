@@ -1,4 +1,4 @@
-package pretask;
+package homework.pretask;
 
 public class VariableReassignment {
 

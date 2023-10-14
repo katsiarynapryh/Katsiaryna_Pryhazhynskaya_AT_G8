@@ -1,4 +1,4 @@
-package basetask;
+package homework.basetask;
 
 public class TrainMethodsPrimitive {
     public void printInt(int num) {
