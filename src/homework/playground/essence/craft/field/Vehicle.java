@@ -3,5 +3,18 @@ package homework.playground.essence.craft.field;
 import homework.playground.essence.Matter;
 
 public abstract class Vehicle extends Matter {
-    private String name;
+    protected String name;
+
+    public Vehicle(int mass, String name) {
+        super(mass);
+        this.name = name;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 }
