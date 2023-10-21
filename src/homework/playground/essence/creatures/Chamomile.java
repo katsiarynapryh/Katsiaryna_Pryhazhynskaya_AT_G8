@@ -1,7 +1,7 @@
 package homework.playground.essence.creatures;
 
 public class Chamomile extends Flower {
-    public Chamomile(int mass, String name) {
-        super(mass, name);
+    public Chamomile(int mass, String plantName) {
+        super(mass, plantName);
     }
 }

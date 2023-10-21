@@ -3,21 +3,24 @@ package homework.playground.essence.creatures;
 import homework.playground.essence.Matter;
 
 public abstract class Animal extends Matter {
-    protected String name;
+    protected String animalName;
 
-    public Animal(int mass, String name) {
+    public Animal(int mass, String animalName) {
         super(mass);
-        this.name = name;
+        this.animalName = animalName;
     }
 
     public String getName() {
-        return name;
+        return animalName;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setName(String animalName) {
+        this.animalName = animalName;
     }
+
     public void eat(Plant food) {
-        System.out.println(String.format("I am N and I am eating D"))
+        var who = animalName;
+        var what = food.plantName;
+        System.out.println(String.format("I am %s and I am eating %s", who, what));
     }
 }
