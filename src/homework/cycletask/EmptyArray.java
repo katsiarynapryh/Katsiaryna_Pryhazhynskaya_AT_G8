@@ -9,7 +9,7 @@ public class EmptyArray {
         int[] array = new int[7];
 
         for (int i = 0; i < array.length; i++) {
-            array[i] = rnd.nextInt(10);
+            array[i] = rnd.nextInt();
             System.out.print(array[i] + " "); // пройти по массиву и вывести в консоль все элементы
         }
         System.out.println();
