@@ -1,4 +1,6 @@
-package homework.basetask;
+package homework.basetask.objects;
+
+import homework.basetask.objects.*;
 
 public class TrainMethodsObjects {
     public void processMouse(Mouse mouse) {

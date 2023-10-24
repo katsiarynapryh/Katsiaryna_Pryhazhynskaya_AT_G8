@@ -1,4 +1,4 @@
-package homework.basetask;
+package homework.basetask.objects;
 
 public class Pineapple {
     private String grade; //сорт
