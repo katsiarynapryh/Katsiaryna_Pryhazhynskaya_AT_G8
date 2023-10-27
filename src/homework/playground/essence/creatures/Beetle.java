@@ -1,19 +1,19 @@
-//package homework.playground.essence.creatures;
-//
-//public class Beetle extends Insect {
-//    public Beetle(int mass, String animalName) {
-//        super(mass, animalName);
-//    }
+package homework.playground.essence.creatures;
+
+public class Beetle extends Insect {
+    public Beetle(int mass, String animalName) {
+        super(mass, animalName);
+    }
 //    public void nest(Carrot home) {
-//        var who = animalName;
-//        var what = home.plantName;
-//        if () {
+//        var who = animalName; // имя соответствующего обьекта класса жука
+//
+//        var what = int x; // целая чать от деления массы моркови на массу жука
+//        int x = home.getMass() / this.mass;
+//        int x % 2 == 0 // целая чать от деления массы моркови на массу жука
+//
+//        if (this.mass < home.getMass()) {
 //            System.out.println(String.format("I am %s and I will nest there with %s my family members!", who, what));
-//            // где N - имя соответствующего обьекта класса жука,
-//            // D -  целая чать от деления массы моркови на массу жука
 //        } else {
 //            System.out.println("This carrot is too small for nesting :(");
 //        }
-//    }
-//
-//}
+    }
