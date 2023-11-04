@@ -1,6 +1,9 @@
 package project.bubbles;
 
-public class Runner {
+import project.bubbles.boxing.Bottle;
+
+public class Runner
+{
     public static void main(String[] args) {
         Bottle[] bottles = new Bottle[3];
         Bottle bottle1 = new Bottle(0.5);
@@ -14,4 +17,5 @@ public class Runner {
             bottles[i].open();
         }
     }
+
 }

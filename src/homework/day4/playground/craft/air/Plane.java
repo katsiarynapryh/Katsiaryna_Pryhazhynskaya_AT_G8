@@ -17,8 +17,9 @@ public class Plane extends Aircraft {
     @Override
     public int move(int pointA, int pointB)
     {
-        System.out.println(String.format("I am %s, my name is %s and I am moving from point A to point B",
-                Plane.class.getSimpleName(), this.getName()));
+        System.out.println(String.format("I am %s, my name is %s and I am moving from point %d to point %d",
+                Plane.class.getSimpleName(), this.getName(), pointA, pointB));
         //N - название класса соответствующего обьекта, М - значение name обьекта
-        return pointB - pointA;    }
+        return pointB - pointA;
+    }
 }

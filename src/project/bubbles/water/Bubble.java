@@ -1,4 +1,4 @@
-package project.bubbles;
+package project.bubbles.water;
 
 public class Bubble {
     final double VOLUME = 0.3;
@@ -10,5 +10,9 @@ public class Bubble {
 
     public void burst() {
         System.out.println("Cramp!");
+    }
+
+    public double getVolume() {
+        return VOLUME;
     }
 }

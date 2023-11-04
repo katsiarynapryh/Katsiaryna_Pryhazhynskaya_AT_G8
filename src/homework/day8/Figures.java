@@ -34,7 +34,7 @@ public class Figures {
         }
         System.out.println();
 
-        figures.add(2, "Треугольник"); //Вставить на 3 позицию Треугольник
+        // figures.add(2, "Треугольник"); //Вставить на 3 позицию Треугольник
 
         for (String myfig : figures) {
             System.out.print(myfig + " "); //отпечатать слова в консоль через пробел

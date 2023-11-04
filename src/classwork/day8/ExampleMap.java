@@ -10,17 +10,21 @@ public class ExampleMap {
         for (int i = 0; i < array.length; i++) {
             words.put(i, array[i]); // заполняем
         }
-        for (int x : words.keySet()) {
-            System.out.print(x);
+
+        for (int i : words.keySet()) {
+            System.out.println(i); // проитерировать ключи карты
         }
+
         System.out.println();
 
         for (String str : words.values()) {
-            System.out.println(str);
+            System.out.println(str); // проитерировать значения карты
         }
 
+        System.out.println();
+
         for (Map.Entry<Integer, String> entry : words.entrySet()) {
-            System.out.println(entry.getKey() + entry.getValue());
+            System.out.println(entry.getKey() + entry.getValue()); // проитерировать комбинацию
         }
 
     }

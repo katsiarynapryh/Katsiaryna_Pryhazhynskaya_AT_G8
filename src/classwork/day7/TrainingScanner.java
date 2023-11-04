@@ -1,18 +1,17 @@
-/*
 package classwork.day7;
+
+import java.util.Scanner;
 
 public class TrainingScanner {
     public static void main(String[] args) {
-        trainingScanner testscanner = new trainingScanner(System.in);
+        Scanner scanner = new Scanner(System.in);
 
-        while (testscanner.hasNext()){
-            String incoming = testscanner.NextLine();
+        while (scanner.hasNext()) {
+            String incoming = scanner.nextLine();
             System.out.printf("Just got '%s' text!", incoming);
-            if incoming.eee("lunch"); {
+            if (incoming.equalsIgnoreCase("lunch")) {
                 return;
-            }
             }
         }
     }
 }
-*/

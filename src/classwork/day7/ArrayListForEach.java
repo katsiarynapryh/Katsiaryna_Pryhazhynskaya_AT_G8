@@ -7,6 +7,7 @@ public class ArrayListForEach {
     public static void main(String[] args) {
         List<String> myList = new ArrayList();
         String myString = "мама мыла раму";
+
         String[] words = myString.split(" ");
         for (String jun : words) {
             myList.add(jun);
@@ -16,7 +17,11 @@ public class ArrayListForEach {
             System.out.println(myList.get(i));
         }
 
-        // for-each
+        System.out.println();
+
+        for (String str : myList) {
+            System.out.println(str);
+        }
     }
 
 }

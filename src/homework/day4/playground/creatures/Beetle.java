@@ -6,8 +6,7 @@ public class Beetle extends Insect implements Crawlable {
         super(mass, animalName);
     }
 
-    public void nest(Carrot home)
-    {
+    public void nest(Carrot home) {
         var who = animalName; // имя соответствующего обьекта класса жука
 //
 //        var what = int x; // целая чать от деления массы моркови на массу жука
@@ -21,5 +20,12 @@ public class Beetle extends Insect implements Crawlable {
         {
             System.out.println("This carrot is too small for nesting :(");
         }
+    }
+
+    @Override
+    public void crawl(String direction, int distance) {
+        System.out.println(String.format("I am %s, my name is %s and I am crawling to %s for %d units",
+                Beetle.class.getSimpleName(), this.getName(), direction, distance));
+        System.out.println("vz-vz-vzz-zz..");
     }
 }
