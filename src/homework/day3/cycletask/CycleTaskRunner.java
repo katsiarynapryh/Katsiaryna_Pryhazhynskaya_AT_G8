@@ -10,4 +10,5 @@ public class CycleTaskRunner {
         EmptyArray emptyArray = new EmptyArray();
         emptyArray.arrayTasks();
     }
+
 }
