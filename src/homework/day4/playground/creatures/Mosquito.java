@@ -1,7 +1,18 @@
 package homework.day4.playground.creatures;
 
-public class Mosquito extends Insect {
+import homework.day4.playground.essence.Flyable;
+
+public class Mosquito extends Insect implements Flyable {
     public Mosquito(int mass, String animalName) {
         super(mass, animalName);
+    }
+
+    @Override
+    public void fly(String direction)
+    {
+        System.out.println(String.format("I am %s, my name is %s and I amd flying to %s", Mosquito.class.getSimpleName(), this.getName(), direction));
+        // N - название класса соответствующего обьекта,
+        // М - значение name обьекта,
+        // D - строка, подставляемая из значения передаваемого аргумента
     }
 }

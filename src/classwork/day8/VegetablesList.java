@@ -12,20 +12,31 @@ public class VegetablesList {
         vegetables.add("Батат");
         vegetables.add("Картоха");
         for (String myveg : vegetables) {
-            System.out.println(myveg);
+            System.out.print(myveg + " ");
         }
+
         System.out.println();
 
         int counter = 0;
         for (String myveg : vegetables) {
-            if (myveg.contains("a")) {
+            if (myveg.contains("а")) {
                 counter++;
             }
         }
-        System.out.println(counter++);
+        System.out.println(counter);
+
+        for (int i = 0; i < vegetables.size(); i++) {
+            System.out.print(vegetables.get(i) + " ");
+        }
+
         System.out.println();
 
-        // доделать задание
+        vegetables.remove("Огурец");
+        vegetables.remove(3);
+
+        for (String myveg : vegetables) {
+            System.out.print(myveg + " ");
+        }
 
     }
 }

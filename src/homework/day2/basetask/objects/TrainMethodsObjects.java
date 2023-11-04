@@ -1,7 +1,5 @@
 package homework.day2.basetask.objects;
 
-import homework.basetask.objects.*;
-
 public class TrainMethodsObjects {
     public void processMouse(Mouse mouse) {
         mouse.printMouseDetails();
@@ -22,4 +20,5 @@ public class TrainMethodsObjects {
     public void processPineapple(Pineapple pineapple) {
         pineapple.printPineappleDetails();
     }
+
 }

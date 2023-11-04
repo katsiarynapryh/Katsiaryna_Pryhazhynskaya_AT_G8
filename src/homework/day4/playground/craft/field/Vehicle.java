@@ -1,8 +1,10 @@
 package homework.day4.playground.craft.field;
 
+import homework.day4.playground.craft.Rideable;
+import homework.day4.playground.craft.Transportable;
 import homework.day4.playground.essence.Matter;
 
-public abstract class Vehicle extends Matter {
+public abstract class Vehicle extends Matter implements Transportable, Rideable {
     protected String name;
 
     public Vehicle(int mass, String name) {
@@ -17,4 +19,5 @@ public abstract class Vehicle extends Matter {
     public void setName(String name) {
         this.name = name;
     }
+
 }

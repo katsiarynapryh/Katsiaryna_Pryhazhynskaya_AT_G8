@@ -10,18 +10,18 @@ public class ObjectContainer {
             counter++;
         }
     }
-    
+
     public Object removeLast() {
         Object removedObj = null;
         if (counter > 0) {
-           removedObj = objects[counter - 1];
-           counter--;
+            removedObj = objects[counter - 1];
+            counter--;
         }
         return removedObj;
     }
 
     public boolean isEmpty() {
-            return counter == 0;
+        return counter == 0;
     }
 
 }

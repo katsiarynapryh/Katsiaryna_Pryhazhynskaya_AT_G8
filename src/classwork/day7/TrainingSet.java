@@ -16,6 +16,8 @@ public class TrainingSet {
             System.out.println(iterator.next());
         }
 
+        System.out.println();
+
         for (String jun : mySet) {
             System.out.println(jun);
         }

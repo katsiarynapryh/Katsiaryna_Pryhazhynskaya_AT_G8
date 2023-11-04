@@ -1,4 +1,4 @@
 package homework.day4.playground.material;
 
-public class Water {
+public class Water implements Pourable {
 }
