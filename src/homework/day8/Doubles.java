@@ -5,8 +5,8 @@ import java.util.List;
 
 public class Doubles {
     public static void main(String[] args) {
-        Double myDoub[] = {33.42, 34.3, 0.79, 2.3426, 6.8, 13.24, 5.5, 769.9};
-        List<Double> doubles = Arrays.asList(myDoub);
+        Double myDoubles[] = {33.42, 34.3, 0.79, 2.3426, 6.8, 13.24, 5.5, 769.9};
+        List<Double> doubles = Arrays.asList(myDoubles);
 
         for (Double myD : doubles) {
             System.out.print(myD + " "); //отпечатать числа в консоль через пробел
@@ -21,17 +21,17 @@ public class Doubles {
         }
 
         // найти сумму всех дробных частей и вывести результат в консоль
-//        double sum = 0.00;
+//        double sum = 0.0000;
 //        double i = doubles - (int)doubles;
-//        for (double i = 0; i < myDoub.length; i++) {
-//            sum = sum + myDoub[i];
+//        for (double i = 0; i < myDoubles.length; i++) {
+//            sum = sum + myDoubles[i];
 //        }
 //        System.out.println("сумма всех дробных частей: " + sum);
 
         // Проитерировать список по индексу и вывести целые части в консоль через пробел
 //        int y = (int)doubles;
-//        for (int y = 0; y < myDoub.length; y++) {
-//            System.out.print((int)myDoub + " ");
+//        for (int y = 0; y < myDoubles.length; y++) {
+//            System.out.print((int)myDoubles + " ");
 //        }
     }
 }

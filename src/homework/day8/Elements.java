@@ -28,7 +28,6 @@ public class Elements
         int count = 0;
             for (String myelement : elements)
             {
-                // String[] words = myelement.split(" ");
                 if (elements.contains(" "))
                 {
                     count++;
