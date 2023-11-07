@@ -12,7 +12,9 @@ public class Countries {
         countries.add("Замбия");
 
         for (String mycountry : countries) {
-            System.out.print(mycountry + "," + " "); //отпечатать слова в консоль через запятую с пробелом
+            System.out.print(mycountry); //отпечатать слова в консоль через запятую с пробелом
+            if (countries.indexOf(mycountry) != countries.size() - 1)
+                System.out.print(", ");
         }
 
         System.out.println();

@@ -21,7 +21,9 @@ public class Noodles {
         System.out.println();
 
         //Заменить в каждом слове буквы "а" на букву "о"
-        // String newNoodles = noodles.set("a", "o");
+        for (int i = 0; i < noodles.size(); i++) {
+            noodles.set(i, noodles.get(i).replace("a", "o"));
+        }
 
         for (int i = 0; i < noodles.size(); i++) {
             System.out.print(noodles.get(i) + " "); //отпечатать слова в консоль через пробел
